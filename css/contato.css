@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(to right, #6a3093, #a044ff) !important;
+}
+
+.form-group{
+    padding: 20px;
+    height: 510px;
+    border-radius: 2px;
+}
+textarea{
+    resize: none;
+}

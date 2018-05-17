@@ -1,0 +1,128 @@
+
+.container{  
+    
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.calculadora th{
+    width: 100%;
+    font-weight: lighter;
+}
+.calculadora{    
+    color: #fff;
+    background-color:#262e40;
+    width: 18%;  
+    height: 500px; 
+    border-radius: 35px;
+    border: 1px solid transparent !important;
+    margin-top: 50px;
+    box-shadow: 1px 1px 30px #333;       
+}
+.calculadora td{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:  #303950;
+    cursor: pointer;
+    text-align: center;
+    width: 24%;
+    font-size: 28px;  
+    border: 1px solid  #262e40;
+    font-weight: lighter;
+     
+}
+
+
+.visor{
+   
+  
+    padding: 60px 20px 0 50px;
+    height: 200px;
+    padding-bottom: 0px;
+    vertical-align:bottom !important;
+    text-align: end;
+    color: #fff;
+    font-size: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;   
+    
+   
+
+  
+}
+
+.visor span{
+    
+    vertical-align: bottom;
+}
+
+
+
+
+
+.calculadora .igual{
+    
+    border-bottom-right-radius: 32px !important;
+    border: 1px solid transparent;
+}
+.calculadora .zero{
+    border-bottom-left-radius: 32px  !important;
+    border: 1px solid transparent;
+    border-right: 1px solid  #262e40;
+}
+
+.operacao-basica{
+    background: linear-gradient(to right,#bf80ff,#ed78ed);
+}
+.funcao-especial span{
+ 
+    
+    background: linear-gradient(to right,#bf80ff,#ed78ed); 
+   -webkit-background-clip: text;
+   
+   -webkit-text-fill-color: transparent;
+     
+}
+
+
+
+
+@media all and (max-width: 1920px) {
+    .calculadora{
+     height:535px;   
+     width: 16%;
+    }
+ }
+ @media all and (max-width: 1700px) {
+    .calculadora{
+     height: 520px;   
+     width: 17%;
+    }
+ }
+ @media all and (max-width: 1400px) {
+    .calculadora{
+     height: 450px;   
+     width: 18%;
+    }
+ }
+ @media all and (max-width: 1200px) {
+    .calculadora{
+     height: 400px;   
+     width: 23%;
+    }
+ }
+
+@media all and (max-width: 700px) {
+    .calculadora{
+    height: 350px;   
+    width: 50%;
+   }
+}
+
+@media all and (max-width: 350px) {
+    .calculadora{
+     height: 200px;   
+     width: 70%;
+    }
+ }
+ 
+ 
